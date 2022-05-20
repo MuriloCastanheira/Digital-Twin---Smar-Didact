@@ -1,0 +1,27 @@
+Criar um servidor OPC UA para o LAB
+
+o que parametros ele deve ter:
+	#Quantidade de água que saida do Reservatorio para cada bomba
+	#Quantidade de água que cada bomba aguenta
+	#Vazão que cada valvula
+	#Quantidade de água no Tanque de Aquecimento
+	#Tempo do processo do Tanque de Aquecimento
+	#Quandade de saida do Tanque de Aquecimento
+	#Temperatura da água no Tanque de Aquecimento
+	#Quantidade de água no Tanque de Mistura e quanto dessa agua veio do Tanque de Mistura
+	#Tempo do processo do Tanque de Mistura
+	#Quantidade de água que sai do Tanque de Mistura
+
+__________________________________________________________
+
+Criar um Client para o serivdor OPC UA
+
+Esse Client deve gerar dados falso para o Servidor para o anylogic usa na simulação
+
+___________________________________________________________
+
+Colocar esses dados em um banco de dados
+
+___________________________________________________________
+
+Fazer o Anylogic ler esses dados 
