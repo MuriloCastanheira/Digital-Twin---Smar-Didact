@@ -3,7 +3,7 @@ import time
 import serial
 #gerar dados falso 
 
-Quant_Agua_Saida_Reservatorio = 0
+Quant_Agua_Reservatorio = 0
 Quant_Bomba_1_Reservatorio = 0
 Quant_Bomba_2_Reservatorio = 0
 Vazao_Valvula1 = 0
@@ -20,7 +20,7 @@ Quant_Agua_Saida_Tanque_Mistura = 0
 
 while True:
 
-    Quant_Agua_Saida_Reservatorio= int(random.uniform(0, 10))
+    Quant_Agua_Saida_Reservatorio= int(random.uniform(0, 1000))
 
     Quant_Bomba_1_Reservatorio = int(random.uniform(0, 500))
 

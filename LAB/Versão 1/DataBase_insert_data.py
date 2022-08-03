@@ -34,7 +34,7 @@ while True:
 
         sql = str(declaração) + str(dados) 
         try:
-                con = mysql.connector.connect(host = 'localhost',database = 'labv1',user = 'root',passwd = '')
+                con = mysql.connector.connect(host = 'localhost',database = 'dados',user = 'root',passwd = '')
                 inserir_dados = sql
 
                 cursor = con.cursor()

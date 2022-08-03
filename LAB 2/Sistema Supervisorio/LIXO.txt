@@ -1,0 +1,48 @@
+    ######MIN###################################
+    mini = 0
+    while mini < len(data):
+
+        if int(data[mini]) < int(data_min[mini]):
+            data_min[mini] = data[mini]
+        mini += 1
+
+    worksheet.write('A2', "MIN")
+    worksheet.write('B2', data_min[0])
+    worksheet.write('C2', data_min[1])
+    worksheet.write('D2', data_min[2])
+    worksheet.write('E2', data_min[3])
+    worksheet.write('F2', data_min[4])
+    worksheet.write('G2', data_min[5])
+    worksheet.write('H2', data_min[6])
+    worksheet.write('I2', data_min[7])
+    worksheet.write('J2', data_min[8])
+    worksheet.write('K2', data_min[9])
+    worksheet.write('L2', data_min[10])
+    worksheet.write('M2', data_min[11])
+    worksheet.write('N2', data_min[12])
+    worksheet.write('O2', data_min[13])
+    print(data_min)
+    ######MIN###################################
+    maxi = 0
+    while maxi < len(data):
+        if int(data[maxi]) > int(data_max[maxi]):
+            data_max[maxi] = data[maxi]
+
+    worksheet.write('A4', "MIN")
+    worksheet.write('B4', data_max[0])
+    worksheet.write('C4', data_max[1])
+    worksheet.write('D4', data_max[2])
+    worksheet.write('E4', data_max[3])
+    worksheet.write('F4', data_max[4])
+    worksheet.write('G4', data_max[5])
+    worksheet.write('H4', data_max[6])
+    worksheet.write('I4', data_max[7])
+    worksheet.write('J4', data_max[8])
+    worksheet.write('K4', data_max[9])
+    worksheet.write('L4', data_max[10])
+    worksheet.write('M4', data_max[11])
+    worksheet.write('N4', data_max[12])
+    worksheet.write('O4', data_max[13])
+    worksheet.close()
+    maxi += 1
+    print(data_max)
